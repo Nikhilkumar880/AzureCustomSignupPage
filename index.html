@@ -208,6 +208,15 @@
                 text-decoration: none;
             }
 
+            .backBtn:hover{
+                border: none;
+                text-decoration: none;
+            }
+
+            .backBtn:active, .backBtn:focus{
+                outline: none;
+            }
+
             #api {
                 margin: 0 auto
             }
@@ -1082,7 +1091,7 @@
                     <div class="panel panel-default">
                         <div class="panel-body">
                             <div class="backBtnWrapper">
-                                <button onclick="window.location.href='http://localhost:3000/';" class="backBtn">&#8592;</button>
+                                <a href="http://localhost:3000/" class="backBtn">&#8592;</a>
                             </div>
                             <img class="companyLogo" data-tenant-branding-logo="true" src="https://wwsarci.b2clogin.com/static/tenant/templates/images/logo.svg" alt="Company Logo">
                             <div id="api" role="main"></div>
